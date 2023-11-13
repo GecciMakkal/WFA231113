@@ -1,6 +1,6 @@
-﻿namespace WFA001
+﻿namespace WFA002
 {
-    partial class MainForm
+    partial class mainformtwo
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,34 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            lblhello = new Label();
+            gomb = new Button();
             SuspendLayout();
             // 
-            // lblhello
+            // gomb
             // 
-            lblhello.AutoSize = true;
-            lblhello.BackColor = SystemColors.Info;
-            lblhello.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            lblhello.Location = new Point(214, 79);
-            lblhello.Name = "lblhello";
-            lblhello.Size = new Size(166, 37);
-            lblhello.TabIndex = 0;
-            lblhello.Text = "Hello,World!";
+            gomb.BackColor = Color.PeachPuff;
+            gomb.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            gomb.Location = new Point(293, 76);
+            gomb.Name = "gomb";
+            gomb.Size = new Size(276, 176);
+            gomb.TabIndex = 0;
+            gomb.Text = "GomB";
+            gomb.UseVisualStyleBackColor = false;
             // 
-            // MainForm
+            // mainformtwo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
             ClientSize = new Size(800, 450);
-            Controls.Add(lblhello);
-            Name = "MainForm";
-            Text = "Hello,World!";
+            Controls.Add(gomb);
+            Name = "mainformtwo";
+            Text = "Form1";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private Label lblhello;
+        private Button gomb;
     }
 }
